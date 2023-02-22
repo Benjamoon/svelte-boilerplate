@@ -4,7 +4,7 @@ Most simple svelte boilerplate...
 
 Heres a few code snippets i like to use often too :)
 
-##Pocketbase store (pb.js)
+## Pocketbase store (pb.js)
 ```
 import PocketBase from 'pocketbase';
 import { writable } from 'svelte/store';
@@ -18,7 +18,7 @@ pb.authStore.onChange((auth) => {
 });
 ```
 
-##Path watcher (super simple router) (path.js)
+## Path watcher (super simple router) (path.js)
 ```
 import { writable } from "svelte/store"
 
