@@ -5,7 +5,7 @@ Most simple svelte boilerplate...
 Heres a few code snippets i like to use often too :)
 
 ## Pocketbase store (pb.js)
-```
+```js
 import PocketBase from 'pocketbase';
 import { writable } from 'svelte/store';
 
@@ -19,7 +19,7 @@ pb.authStore.onChange((auth) => {
 ```
 
 ## Path watcher (super simple router) (path.js)
-```
+```js
 import { writable } from "svelte/store"
 
 export const path = writable(window.location.pathname)
